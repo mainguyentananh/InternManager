@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" ?>  
+<!DOCTYPE tiles-definitions PUBLIC
+   "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+   	"http://tiles.apache.org/dtds/tiles-config_3_0.dtd"> 
+ 
+ 	<tiles-definitions>	
+ 
+ 	<!-- Người Dùng -->
+	<definition name="layouts-u"
+		template="/WEB-INF/layouts/layout.jsp">
+		<put-attribute name="header" value="/WEB-INF/layouts/header.jsp" />
+		<put-attribute name="content" value="" />
+		<put-attribute name="footer" value="/WEB-INF/layouts/footer.jsp" />
+	</definition>
+ 	
+ 	
+ 	<definition name="trangchu" extends="layouts-u">
+		<put-attribute name="content"
+			value="/WEB-INF/views/trangchu.jsp" />
+	</definition>
+	
+	<definition name="cbantin" extends="layouts-u">
+		<put-attribute name="content"
+			value="/WEB-INF/views/cbantin.jsp" />
+	</definition>
+ 	
+ 	<definition name="donvi" extends="layouts-u">
+		<put-attribute name="content"
+			value="/WEB-INF/views/donvi.jsp" />
+	</definition>
+	
+	<definition name="cdonvi" extends="layouts-u">
+		<put-attribute name="content"
+			value="/WEB-INF/views/cdonvi.jsp" />
+	</definition>
+ 
+ 		<!-- Login -->
+	<definition name="dangnhap"
+		template="/WEB-INF/views/dangnhap.jsp">
+	</definition>
+	
+	<!-- Hệ Thống -->
+	<definition name="layouts-ad"
+		template="/WEB-INF/layouts/layout-admin.jsp">
+		<put-attribute name="content" value="" />
+	</definition>
+
+	<definition name="sinhvien" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/sinhvien/svindex.jsp" />
+	</definition>
+ 	
+ 	<definition name="giangvien" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/gvindex.jsp" />
+	</definition>
+	
+	<definition name="quantri" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/quantri/qtindex.jsp" />
+	</definition> 	
+	
+		<definition name="403" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/403.jsp" />
+	</definition> 	
+	
+	
+	<!-- Sinh Viên -->
+	<definition name="xacnhantt" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/sinhvien/xacnhantt.jsp" />
+	</definition>
+	
+	<definition name="donvikhac" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/sinhvien/donvikhac.jsp" />
+	</definition>
+	<definition name="donvimoi" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/sinhvien/donvimoi.jsp" />
+	</definition>
+	
+	<definition name="chitietcv" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/sinhvien/chitietcv.jsp" />
+	</definition>
+	
+	<definition name="capnhatsdt" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/sinhvien/capnhatsdt.jsp" />
+	</definition>
+	
+	<definition name="thongbao" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/sinhvien/thongbao.jsp" />
+	</definition>
+	
+	
+	<!-- Giảng Viên -->
+	<definition name="xetduyet" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/xetduyet.jsp" />
+	</definition>
+	
+	<definition name="chitietxetduyet" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/chitietxetduyet.jsp" />
+	</definition>
+	
+	<definition name="phanconggv" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/phanconggv.jsp" />
+	</definition>
+	
+	<definition name="giangday" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/giangday.jsp" />
+	</definition>
+	
+	<definition name="chitietsv" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/chitietsv.jsp" />
+	</definition>
+	
+	<definition name="danhsachxetduyet" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/danhsachxetduyet.jsp" />
+	</definition>
+	
+	<definition name="tuyendung" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/tuyendung.jsp" />
+	</definition>
+	
+		<definition name="chitiettuyendung" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/chitiettuyendung.jsp" />
+	</definition>
+	
+		<definition name="themcongty" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/themcongty.jsp" />
+	</definition>
+	
+	<definition name="diemso" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/giangvien/diemso.jsp" />
+	</definition>
+	
+	
+	<!-- Quản Trị -->
+
+	
+	<definition name="phancongbm" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/quantri/phancongbm.jsp" />
+	</definition>
+	
+	<definition name="thongke" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/quantri/thongke.jsp" />
+	</definition>
+	
+	<definition name="bantin" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/quantri/bantin.jsp" />
+	</definition>
+	
+		<definition name="thembantin" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/quantri/thembantin.jsp" />
+	</definition>
+	
+		<definition name="chitietbantin" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/quantri/chitietbantin.jsp" />
+	</definition>
+	
+	<definition name="ketqua" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/quantri/ketqua.jsp" />
+	</definition>
+	
+	<definition name="danhsachphancong" extends="layouts-ad">
+		<put-attribute name="content"
+			value="/WEB-INF/views/quantri/danhsachphancong.jsp" />
+	</definition>
+	
+ 	</tiles-definitions>  

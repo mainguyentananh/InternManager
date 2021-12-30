@@ -1,0 +1,23 @@
+-Tất cả mật khẩu trong hệ thống đề là : test.
+-Tài khoản đăng nhập là email của người dùng.
+
+- 2 sinh viên CNTT: 
+	B0001 : test1@student.ctu.edu.vn
+	B0003 : test3@student.ctu.edu.vn
+
+- 2 sinh viên KHMT:
+	B0002 : test2@student.ctu.edu.vn
+	B0004 : test4@student.ctu.edu.vn
+
+-Tài khoản Admin: admin@ctu.edu.vn
+
+-Tài khoản giảng viên KHMT:
+	tnmthu@ctu.edu.vn
+	ltdao@ctu.edu.vn
+
+-Tài khoản giảng viên CNTT:
+	gvcntt@ctu.edu.vn
+
+
+-Dữ liệu nằm trong file script_nienluannganh.sql và không khởi tạo trigger để cho việc sử dụng dữ liệu dễ dàng.
+-Cấu trúc database nằm trong file nienluannganh.sql.

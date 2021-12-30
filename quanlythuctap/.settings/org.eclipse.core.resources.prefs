@@ -1,0 +1,11 @@
+eclipse.preferences.version=1
+encoding//src/main/java/nienluan/config/WebSecurityConfig.java=UTF-8
+encoding//src/main/java/nienluan/controller/dangNhapController.java=UTF-8
+encoding//src/main/java/nienluan/controller/giangVienController.java=UTF-8
+encoding//src/main/java/nienluan/controller/quanTriController.java=UTF-8
+encoding//src/main/java/nienluan/controller/sinhVienController.java=UTF-8
+encoding//src/main/java/nienluan/dao/thongTinThucTapDao.java=UTF-8
+encoding//src/main/java/nienluan/model/giangVien.java=UTF-8
+encoding//src/main/java/nienluan/service/thongTinThucTapService.java=UTF-8
+encoding//src/main/java/test.java=UTF-8
+encoding//src/main/webapp/WEB-INF/views/sinhvien/donvimoi.jsp=UTF-8
